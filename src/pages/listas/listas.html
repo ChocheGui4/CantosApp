@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar color="dark">
+
+
+    <div>
+      <div>
+
+        <ion-title>{{this.dato}}</ion-title>
+      </div>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="c1">
+  <div>
+
+
+    <!-- Searchbar with a placeholder -->
+    <ion-searchbar placeholder="Buscar un canto" (ionInput)="getItems($event)"></ion-searchbar>
+
+    <ion-list>
+      <button ion-button full *ngFor="let item of items" class="c2" (click)="Mostrar()">
+        {{item.name}}
+      </button>
+      <br>
+    </ion-list>
+
+
+
+
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "CantosApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
