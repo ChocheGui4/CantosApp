@@ -22,7 +22,7 @@ export class MostrarPage {
       this.dato = val;
     });
     
-    console.log("Dato para mostrar: ",this.dato);
+    console.log("Dato para mostrar y subir en git hub: ",this.dato);
   }
 
   ionViewDidLoad() {
