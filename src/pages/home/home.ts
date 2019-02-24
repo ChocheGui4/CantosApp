@@ -8,10 +8,10 @@ import { Storage } from '@ionic/storage';
 })
 export class HomePage {
   list1 = [{ name: "1. Mensajeros" },
-  { name: "2. Bienaventurado" },
+  { name: "2. Bienaventurado Alex campos" },
   { name: "3. Escalándo peldaños" },
   { name: "4. Sigue a Dios" },
-  { name: "5. La dulce presencia" },
+  { name: "5. La dulce presencia de Dios" },
   {name: "6. Te vengo a decir"},
   {name: "7. Al fin soy feliz"},
   {name: "8. Tenemos poder"},
