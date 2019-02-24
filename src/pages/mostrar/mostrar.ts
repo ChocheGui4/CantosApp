@@ -15,7 +15,7 @@ import { Storage } from '@ionic/storage';
   templateUrl: 'mostrar.html',
 })
 export class MostrarPage {
-  dato = "Holi";
+  dato = "Holi jajaja con git";
   constructor(public navCtrl: NavController, public navParams: NavParams,
     public storage: Storage) {
     storage.get('titulo').then((val) => {
