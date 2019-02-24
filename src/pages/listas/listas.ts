@@ -27,7 +27,7 @@ export class ListasPage {
     storage.get('opcion').then((val) => {
       this.dato = val;
     });
-    console.log("Dato de listas: ",this.dato);
+    console.log("Dato de listas en testeo: ",this.dato);
     this.storage.get('nuevos').then((val) => {
 
       this.list = val;
